@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+  <head></head>
+  <body style="font-family: sans-serif;">
+    <div
+      style="width: 398px; border-top-width: 4px; border-top-color: #0F9D58; border-top-style: solid; border-bottom-width: 1px; border-bottom-style: dotted;">
+      <div>
+        <h1 style="color: #0F9D58; font-weight: bold; font-size: 24px; text-align: center;">[title] </h1>
+      </div>
+    </div>
+    <div style="width: 368px; margin: 0 15px;">
+      <p style="color: #000; font-size: 14px;">こんにちは。レポート進捗管理シートです。 <br>[date]のレポートの進捗状況をお送りします。
+      </p>
+      <h2 style="color: #0F9D58; font-weight: bold; font-size: 20px; text-align: center;">
+        [date]の学習状況 </h2>
+      <div style="color: #0F9D58; font-weight: bold; font-size: 16px;">合計</div>
+      <div style="background-color: #f0fceb; padding: 10px; text-align: center;">
+        <div style="font-weight: bold; font-size: 24px;">[passed_count]</div>
+      </div>
+      [chart]
+      <div style="color: #0F9D58; font-weight: bold; font-size: 16px; margin-top: 20px;">受講科目
+      </div>
+      <table style="width: 100%; border-collapse: collapse; border: 1px solid #d2d3d3;">
+        <thead style="height: 38px; background-color: #eeeeee;">
+          <tr>
+            <th style="color: #000; font-size: 12px; padding: 10px; border: 1px solid #d2d3d3;">科目</th>
+            <th class="watched-time-column"
+              style="width: 45px; color: #000; font-size: 12px; padding: 10px; border: 1px solid #d2d3d3;">コマ</th>
+            <th
+              style="width: 48px; color: #000; font-size: 12px; padding: 10px; border: 1px solid #d2d3d3;">レポート</th>
+          </tr>
+        </thead>
+        <tbody>
+          [table_records]
+        </tbody>
+      </table>
+      <a href="[spreadsheet_url]"
+        style="width: 192px; height: 48px; border-radius: 4px; background-color: #0F9D58; display: block; color: #fff; text-align: center; line-height: 48px; text-decoration: none; margin: 30px auto;">シートを開く
+      </a>
+      <div
+        style="border-bottom-width: 8px; border-bottom-color: #0F9D58; border-bottom-style: solid; font-size: 12px;">
+        <hr>
+        <p style="color: #000;">■メール配信停止・頻度の変更・登録アドレスの変更は、設定シートより可能です。 </p>
+        <p style="color: #000;">・設定シート <br><a class="footer-link"
+            href="[settings_url]"
+            style="color: #0F9D58;">[settings_url] </a></p>
+        <hr>
+        <p style="color: #000;">■よくある質問・お問い合わせ </p>
+        <p style="color: #000;">・レポート進捗管理シートに関するご質問・ご要望 <br><a class="footer-link"
+            href="[form_url]" style="color: #0F9D58;">[form_url] </a></p>
+        <p style="color: #000;">※回答にお時間をいただく場合、また内容によってお返事を差し上げられない場合がございます。
+        </p>
+        <h6 style="text-align: end;">メールバージョン:1.0.0</h6>
+      </div>
+    </div>
+  </body>
+</html>
