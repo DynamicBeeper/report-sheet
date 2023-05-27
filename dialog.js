@@ -1,7 +1,7 @@
 function showSetKeyDialog() {
   const ui = SpreadsheetApp.getUi();
   while (true) {
-    const answer = ui.prompt("キー設定", "N予備校のキーを入力してください", ui.ButtonSet.OK_CANCEL);
+    const answer = ui.prompt("キー設定", "APIのキーを入力してください", ui.ButtonSet.OK_CANCEL);
     if (answer.getSelectedButton() == ui.Button.CANCEL || answer.getSelectedButton() == ui.Button.CLOSE) {
       return -1;
     } else {
